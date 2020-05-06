@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "0b6ffc1b-f4d1-4f32-a193-3c62d2e81292",
+		"name": "crud-notes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-notes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiTkFNQSAyIiwiaWRfdXNlciI6IjM3MzY4MSIsInJtX251bWJlciI6ImFkbWluIiwicnNfa2V5IjoiQTEyMyIsImlwX2FkZHJlc3MiOiIxMjcuMC4xLjEiLCJhY2Nlc3MiOiJ1c2VyIn0.ubW6fyc7ErYOW2T5qFbjXvLIVTLp05s3A0paQ6wfcmo",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://178.128.118.107/api/rs/notes?no_rm=008000649&id_visit=2324&id_ref_global_tipe_42=423",
+					"protocol": "http",
+					"host": [
+						"178",
+						"128",
+						"118",
+						"107"
+					],
+					"path": [
+						"api",
+						"rs",
+						"notes"
+					],
+					"query": [
+						{
+							"key": "no_rm",
+							"value": "008000649"
+						},
+						{
+							"key": "id_visit",
+							"value": "2324"
+						},
+						{
+							"key": "id_ref_global_tipe_42",
+							"value": "423"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "066ed9a0-2c60-4717-89cc-b079a4e9b296",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "339146b8-6dbb-446c-b597-57c70e9f797a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
